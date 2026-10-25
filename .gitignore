@@ -1,0 +1,32 @@
+local.properties
+.gradle/
+build/
+*.iml
+.idea/
+firebase-debug.log
+
+*.keystore
+*.jks
+**/google-services.json
+
+# VOICEVOX model files (large binary, downloaded at runtime)
+*.vvm
+
+# Agent instructions
+AGENTS.md
+
+# Claude Code settings
+.claude/
+
+# Local agent/tooling artifacts
+.claude_bak/
+.kotlin/
+.playwright-mcp/
+artifacts/
+artifacts-current.png
+__pycache__/
+
+# Large binary assets (excluded from git; not needed for the standard debug build)
+app/src/main/assets/model/
+app/src/full/
+app/libs/
